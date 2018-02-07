@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 body {
@@ -17,18 +17,6 @@ body {
     padding: 20px;
 }
 
-#top-header{
-    background: rgb(250, 160, 21);
-    text-align: right;
-}
-
-.info {
-    height: 20px;
-    margin-top: 2px;
-    margin-left: 7px;
-    /* margin-bottom: 4px; */
-}
-
 .header {
     height: 95vh;
     background-image: linear-gradient(to right bottom,#5cbdfdbe, #f76dec9f), 
@@ -39,10 +27,24 @@ body {
     position: relative;
 }
 
+.top-info{
+    font-size: 24px;
+    -webkit-text-fill-color: black;
+    text-decoration: none;
+    background: rgb(250, 160, 21);
+    text-align: right;
+    height: 30px;
+}
+
+.icon{
+    padding-left: 16px;
+    height: 24px;
+}
+
 .logo-box {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 30px;
+    left: 30px;
 }
 
 .logo {
@@ -50,6 +52,7 @@ body {
 }
 
 .heading {
+    font-family: 'Montez', cursive;
     color: rgb(252, 255, 47);
     text-transform: uppercase;
     text-align: center;
@@ -58,31 +61,8 @@ body {
     letter-spacing: 10px;
 }
 
-
-
-/*
-.social-icon {
-    display: inline-block;
-    float: none;
-    margin-top: 4px;
-    margin-left: 10px;
-    margin-bottom: 3px;
+.ariel {
+    position: absolute;
+    top: 200px;
+    left: 30px;
 }
-
-.social-icon {
-    display: nane;
-}
-
-#icon {
-    width: 26px;
-    height: 24px;
-}
-
-ol, ul {
-    list-style: none;
-    list-style-type: none;
-    list-style-position: initial;
-    list-style-image: initial;
-}  */
-
-
