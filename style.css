@@ -1,21 +1,25 @@
+/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* text-decoration: none; */
+     text-decoration: none; 
 }
+*/
 
+/*
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
-    /* text-align: center; */
-    /* background: rgb(125, 186,232); */
-    /* margin: auto;  */
+     text-align: center; 
+     background: rgb(125, 186,232); 
+     margin: auto;  
     color: rgb(206, 201, 201);
     padding: 20px;
 }
+*/
 
 .header {
     height: 95vh;
@@ -23,10 +27,11 @@ body {
     url(img/Castle.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0,100% 0,100% 90%, 0 100%);
-    position: relative;
+/*    clip-path: polygon(0 0,100% 0,100% 90%, 0 100%);*/
+/*    position: relative;*/
 }
 
+/*
 .top-info{
     font-size: 24px;
     -webkit-text-fill-color: black;
@@ -35,22 +40,30 @@ body {
     text-align: right;
     height: 30px;
 }
+*/
 
+/*
 .icon{
     padding-left: 16px;
     height: 24px;
 }
+*/
 
+/*
 .logo-box {
     position: absolute;
     top: 30px;
     left: 30px;
 }
+*/
 
+/*
 .logo {
     height: 70px;
 }
+*/
 
+/*
 .heading {
     font-family: 'Montez', cursive;
     color: rgb(252, 255, 47);
@@ -60,9 +73,5 @@ body {
     font-size: 60px;
     letter-spacing: 10px;
 }
+*/
 
-.ariel {
-    position: absolute;
-    top: 200px;
-    left: 30px;
-}

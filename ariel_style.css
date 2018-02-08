@@ -1,57 +1,103 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    /* text-decoration: none; */
-    background-size: cover;
 }
 
 body {
     width:100%;
     height: 100%;
+    position: absolute;
+}
+
+
+.header {
+    height: 100%;
     background-image: linear-gradient(to right bottom,#89e4f96b, #6dcef774), 
     url(ariel/ocen.png);
     background-size: cover;
-    /* background-position: top; */
-    /* clip-path: polygon(0 0,100% 0,100% 90%, 0 100%); */
-    text-align: center; 
-    margin: auto; 
-    display: block;
+    background-position: bottom;
+/*    position: relative;*/
 }
 
 #ariel {
-    height: 600px;
+    background-attachment: fixed;
+    max-width: 14%; 
+/*    display:block; */
+/*    height: auto;*/
+/*    height: 600px;*/
+/*    position: relative;*/
     position: absolute;
-    top: 700px;
-    left: 30px;
+    bottom: 10%;
+    left: 6%;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
 }
 
 .text {
     text-align: center;
     font-size: 18px;
 }
+
 #bubble {
-    top: 900px;
-    left: 1800px;
+    background-attachment: fixed;
+    max-width: 14%; 
+    position: absolute;
+    bottom: 140px;
+    right: 0;
 }
 #bubble1 {
+    background-attachment: fixed;
+    max-width: 14%; 
     position: absolute;
-    top: 540px;
-    left: 560px;
+    bottom: 500px;
+    right: 0;
 }
 
 #photo {
+    position: absolute;
     height: 400px;
     top: 340px;
-    left: 200px;
+    left: 620px;
 }
 
 #fish {
-    height: 100px;
-    top: 540px;
-    left: 800px;
+    background-attachment: fixed;
+    max-width: 4%; 
+    position: absolute;
+    bottom: 500px;
+    right: 8%;
+}
+
+#fish1 {
+    background-attachment: fixed;
+    max-width: 4%; 
+    position: absolute;
+    bottom: 410px;
+    left: 20%;
+}
+
+#yellow-fish {
+    background-attachment: fixed;
+    max-width: 7%; 
+    position: absolute;
+    bottom: 380px;
+    left: 50%;
+}
+
+#i-dont-know {
+    background-attachment: fixed;
+    max-width: 10%; 
+    position: absolute;
+    bottom: 10%;
+    left: 70%;
+}
+
+#i-dont-know2 {
+    background-attachment: fixed;
+    max-width: 10%; 
+    position: absolute;
+    bottom: 12%;
+    left: 30%;
 }
